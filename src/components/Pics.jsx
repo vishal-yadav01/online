@@ -149,7 +149,10 @@ const Pics = ({ photographer, src, hadelAddItme, id }) => {
         <button
           className="bg-green-500 text-white py-2 px-4 rounded transition duration-300 transform hover:scale-105"
           onClick={() => {
+            // console.log("obj=>>>>>", obj);
+
             hadelAddItme(obj);
+
             Add("Item added to cart");
           }}
         >
